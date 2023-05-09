@@ -16,12 +16,16 @@ const Button = ({
   type,
   ...props
 }: ButtonProps) => {
+  const buttonStyle = {
+    padding: '4px',
+  };
   if (link) {
     return (
       <a
         href={link}
         className="button"
         {...props}
+        style={buttonStyle}
       >
         {label}
       </a>
@@ -33,6 +37,7 @@ const Button = ({
         className="button"
         value={label}
         {...props}
+        style={buttonStyle}
       >
       </input>
     );
@@ -42,6 +47,7 @@ const Button = ({
         type="button"
         className="button"
         {...props}
+        style={buttonStyle}
       >
         {label}
       </button>
