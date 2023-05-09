@@ -18,8 +18,8 @@ const Template: ComponentStory<typeof CheckBox> = (args) => {
   );
 };
 
-export const Normal = Template.bind({});
-Normal.args = {
+export const Default = Template.bind({});
+Default.args = {
   name: "consent",
   labelText: "同意する",
 };

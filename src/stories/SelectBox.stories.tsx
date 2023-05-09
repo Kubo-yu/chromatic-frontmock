@@ -24,8 +24,8 @@ const Template: ComponentStory<typeof SelectBox> = (args) => {
   );
 };
 
-export const Normal = Template.bind({});
-Normal.args = {
+export const Default = Template.bind({});
+Default.args = {
   name: "flavor",
   labelText: "Flavor",
   options: selectOptions,

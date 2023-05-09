@@ -18,8 +18,8 @@ const Template: ComponentStory<typeof Input> = (args) => {
   );
 };
 
-export const Normal = Template.bind({});
-Normal.args = {
+export const Default = Template.bind({});
+Default.args = {
   name: "name",
   labelText: "名前",
 };

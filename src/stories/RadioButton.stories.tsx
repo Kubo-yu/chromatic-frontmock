@@ -24,8 +24,8 @@ const Template: ComponentStory<typeof RadioButton> = (args) => {
   );
 };
 
-export const Normal = Template.bind({});
-Normal.args = {
+export const Default = Template.bind({});
+Default.args = {
   name: "gender",
   labelText: "性別",
   options: radioOptions,

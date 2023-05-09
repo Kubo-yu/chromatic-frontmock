@@ -32,8 +32,8 @@ export default function test() {
       <Button label="リンクなしボタン"></Button>
       <FileButton onSelect={handleFileSelected} label="ファイルを選択"></FileButton>
       <Notes label='注意事項' content={notesContent} />
-      <FormatDate date={today} format='YYYY/MM/DD(Day)' />
-      <FormatNumber number={money} format='WithSymbol' currency='円' />
+      {/* <FormatDate date={today} format='YYYY/MM/DD(Day)' />
+      <FormatNumber number={money} format='WithSymbol' currency='円' /> */}
       <DropZone onDrop={handleDrop} />
     </div>
   )

@@ -16,7 +16,7 @@ export default meta;
 type Story = StoryObj<typeof FileButton>;
 
 // More on writing stories with args: https://storybook.js.org/docs/react/writing-stories/args
-export const Normal: Story = {
+export const Default: Story = {
   args: {
     onSelect: handleFileSelected,
     label: 'ファイルを選択',
