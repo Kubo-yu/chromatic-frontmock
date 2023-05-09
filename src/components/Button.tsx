@@ -17,7 +17,7 @@ const Button = ({
   ...props
 }: ButtonProps) => {
   const buttonStyle = {
-    padding: '4px',
+    padding: '10px',
   };
   if (link) {
     return (
