@@ -37,8 +37,13 @@
     "@storybook/testing-library": "^0.1.0",
     "chromatic": "^6.17.4",
     "eslint-plugin-storybook": "^0.6.12",
+    "msw": "^1.2.1",
+    "msw-storybook-addon": "^1.8.0",
     "storybook": "^7.0.10"
   },
   "readme": "ERROR: No README data found!",
-  "_id": "web-fontmock@0.1.0"
+  "_id": "web-fontmock@0.1.0",
+  "msw": {
+    "workerDirectory": "public"
+  }
 }

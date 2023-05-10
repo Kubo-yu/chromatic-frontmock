@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import {DialogButton} from '../components/DialogButton';
+import {DialogButton} from '../components/chromatic-test/DialogButton';
 import { within, userEvent } from '@storybook/testing-library';
 
 const meta: Meta<typeof DialogButton> = {

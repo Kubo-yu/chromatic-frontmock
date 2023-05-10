@@ -4,7 +4,8 @@ import Notes from '../components/Notes'
 import FormatDate from '../components/FormatDate'
 import FormatNumber from '../components/FormatNumber'
 import DropZone from '../components/DropZone'
-import {DialogButton} from '../components/DialogButton'
+import {DialogButton} from '../components/chromatic-test/DialogButton'
+import { CountriesSearchComboBox } from '../components/chromatic-test/CountriesSearchComboBox'
 
 
 
@@ -37,6 +38,7 @@ export default function test() {
       <FormatNumber number={money} format='WithSymbol' currency='円' /> */}
       <DropZone onDrop={handleDrop} />
       <DialogButton></DialogButton>
+      <CountriesSearchComboBox></CountriesSearchComboBox>
     </div>
   )
 }
