@@ -4,6 +4,7 @@ import Notes from '../components/Notes'
 import FormatDate from '../components/FormatDate'
 import FormatNumber from '../components/FormatNumber'
 import DropZone from '../components/DropZone'
+import {DialogButton} from '../components/DialogButton'
 
 
 
@@ -35,6 +36,7 @@ export default function test() {
       {/* <FormatDate date={today} format='YYYY/MM/DD(Day)' />
       <FormatNumber number={money} format='WithSymbol' currency='円' /> */}
       <DropZone onDrop={handleDrop} />
+      <DialogButton></DialogButton>
     </div>
   )
 }
