@@ -1,0 +1,27 @@
+# .github/workflows/test-sb.yml
+
+# Workflow name
+name: 'Test SB'
+
+# Event for the workflow
+on: push
+
+# List of jobs
+jobs:
+  test-sb:
+    # Operating System
+    runs-on: ubuntu-latest
+    # Job steps
+    steps:
+      - uses: actions/checkout@v1
+      - name: Install dependencies
+        # 👇 Install dependencies with the same package manager used in the project (replace it as needed), e.g. yarn, npm, pnpm
+        run: npm i
+        # 👇 Adds Chromatic as a step in the workflow
+      - name: アクセシビリティテスト
+        run: npm run storybook && npm run test-storybook:ci
+      - name: テストレポート
+        uses: mikepenz/action-junit-report@v3
+        if: success() || failure()
+        with: 
+          report_paths: 'junit.xml'
