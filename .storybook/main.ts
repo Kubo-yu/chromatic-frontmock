@@ -6,6 +6,7 @@ const config: StorybookConfig = {
     "@storybook/addon-essentials",
     "@storybook/addon-interactions",
     "@storybook/addon-coverage",
+    // アクセシビリティテスト
     "@storybook/addon-a11y",
   ],
   framework: {
@@ -15,5 +16,6 @@ const config: StorybookConfig = {
   docs: {
     autodocs: "tag",
   },
+  staticDirs: ['./public'],
 };
 export default config;
