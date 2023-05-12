@@ -18,8 +18,10 @@ jobs:
         # 👇 Install dependencies with the same package manager used in the project (replace it as needed), e.g. yarn, npm, pnpm
         run: npm i
         # 👇 Adds Chromatic as a step in the workflow
+      - name: Start Storybook
+        run: npm run storybook &
       - name: アクセシビリティテスト
-        run: npm run storybook && npm run test-storybook:ci
+        run: npm run test-storybook:ci
       - name: テストレポート
         uses: mikepenz/action-junit-report@v3
         if: success() || failure()
