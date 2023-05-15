@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="23" failures="0" errors="0" time="11.108">
+  <testsuite name="Components/Notes" errors="0" failures="0" skipped="0" timestamp="2023-05-12T09:13:58" time="6.567" tests="1">
+    <testcase classname="Components/Notes Default smoke-test" name="Components/Notes Default smoke-test" time="0.301">
+    </testcase>
+  </testsuite>
+  <testsuite name="Components/React-Hook-Form/RadioButton" errors="0" failures="0" skipped="0" timestamp="2023-05-12T09:13:58" time="6.478" tests="1">
+    <testcase classname="Components/React-Hook-Form/RadioButton Default smoke-test" name="Components/React-Hook-Form/RadioButton Default smoke-test" time="0.297">
+    </testcase>
+  </testsuite>
+  <testsuite name="Components/React-Hook-Form/SelectBox" errors="0" failures="0" skipped="0" timestamp="2023-05-12T09:13:58" time="6.574" tests="1">
+    <testcase classname="Components/React-Hook-Form/SelectBox Default smoke-test" name="Components/React-Hook-Form/SelectBox Default smoke-test" time="0.401">
+    </testcase>
+  </testsuite>
+  <testsuite name="Components/React-Hook-Form/Input" errors="0" failures="0" skipped="0" timestamp="2023-05-12T09:13:58" time="6.622" tests="1">
+    <testcase classname="Components/React-Hook-Form/Input Default smoke-test" name="Components/React-Hook-Form/Input Default smoke-test" time="0.436">
+    </testcase>
+  </testsuite>
+  <testsuite name="Components/FormatNumber" errors="0" failures="0" skipped="0" timestamp="2023-05-12T09:13:58" time="6.793" tests="2">
+    <testcase classname="Components/FormatNumber WithCommas smoke-test" name="Components/FormatNumber WithCommas smoke-test" time="0.242">
+    </testcase>
+    <testcase classname="Components/FormatNumber WithDecimal smoke-test" name="Components/FormatNumber WithDecimal smoke-test" time="0.31">
+    </testcase>
+  </testsuite>
+  <testsuite name="Components/FormatDate" errors="0" failures="0" skipped="0" timestamp="2023-05-12T09:13:58" time="6.956" tests="4">
+    <testcase classname="Components/FormatDate Hyphen smoke-test" name="Components/FormatDate Hyphen smoke-test" time="0.379">
+    </testcase>
+    <testcase classname="Components/FormatDate HyphenWithTime smoke-test" name="Components/FormatDate HyphenWithTime smoke-test" time="0.165">
+    </testcase>
+    <testcase classname="Components/FormatDate Slash smoke-test" name="Components/FormatDate Slash smoke-test" time="0.066">
+    </testcase>
+    <testcase classname="Components/FormatDate SlashWithDay smoke-test" name="Components/FormatDate SlashWithDay smoke-test" time="0.09">
+    </testcase>
+  </testsuite>
+  <testsuite name="Components/FormatCurrency" errors="0" failures="0" skipped="0" timestamp="2023-05-12T09:13:58" time="7.246" tests="4">
+    <testcase classname="Components/FormatCurrency JPYLast smoke-test" name="Components/FormatCurrency JPYLast smoke-test" time="0.25">
+    </testcase>
+    <testcase classname="Components/FormatCurrency JPYFirst smoke-test" name="Components/FormatCurrency JPYFirst smoke-test" time="0.083">
+    </testcase>
+    <testcase classname="Components/FormatCurrency USDLast smoke-test" name="Components/FormatCurrency USDLast smoke-test" time="0.268">
+    </testcase>
+    <testcase classname="Components/FormatCurrency USDFirst smoke-test" name="Components/FormatCurrency USDFirst smoke-test" time="0.067">
+    </testcase>
+  </testsuite>
+  <testsuite name="Components/React-Hook-Form/CheckBox" errors="0" failures="0" skipped="0" timestamp="2023-05-12T09:14:05" time="1.318" tests="1">
+    <testcase classname="Components/React-Hook-Form/CheckBox Default smoke-test" name="Components/React-Hook-Form/CheckBox Default smoke-test" time="0.222">
+    </testcase>
+  </testsuite>
+  <testsuite name="Components/FileButton" errors="0" failures="0" skipped="0" timestamp="2023-05-12T09:14:05" time="1.402" tests="1">
+    <testcase classname="Components/FileButton Default smoke-test" name="Components/FileButton Default smoke-test" time="0.384">
+    </testcase>
+  </testsuite>
+  <testsuite name="Components/Button" errors="0" failures="0" skipped="0" timestamp="2023-05-12T09:14:05" time="1.704" tests="3">
+    <testcase classname="Components/Button Default smoke-test" name="Components/Button Default smoke-test" time="0.237">
+    </testcase>
+    <testcase classname="Components/Button WithLink smoke-test" name="Components/Button WithLink smoke-test" time="0.211">
+    </testcase>
+    <testcase classname="Components/Button Submit smoke-test" name="Components/Button Submit smoke-test" time="0.123">
+    </testcase>
+  </testsuite>
+  <testsuite name="Components/DialogButton" errors="0" failures="0" skipped="0" timestamp="2023-05-12T09:14:05" time="1.875" tests="2">
+    <testcase classname="Components/DialogButton Default smoke-test" name="Components/DialogButton Default smoke-test" time="0.422">
+    </testcase>
+    <testcase classname="Components/DialogButton IsOpend play-test" name="Components/DialogButton IsOpend play-test" time="0.137">
+    </testcase>
+  </testsuite>
+  <testsuite name="Components/CountriesSearchComboBox" errors="0" failures="0" skipped="0" timestamp="2023-05-12T09:14:05" time="1.983" tests="1">
+    <testcase classname="Components/CountriesSearchComboBox Default smoke-test" name="Components/CountriesSearchComboBox Default smoke-test" time="0.129">
+    </testcase>
+  </testsuite>
+  <testsuite name="Components/DropZone" errors="0" failures="0" skipped="0" timestamp="2023-05-12T09:14:05" time="1.492" tests="1">
+    <testcase classname="Components/DropZone Default smoke-test" name="Components/DropZone Default smoke-test" time="0.087">
+    </testcase>
+  </testsuite>
+</testsuites>
