@@ -27,7 +27,7 @@ const Button = ({
         {...props}
         style={buttonStyle}
       >
-        {/* {label} */}
+        {label}
       </a>
     );
   } else if (type) {
